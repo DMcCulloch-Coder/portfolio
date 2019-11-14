@@ -1,0 +1,56 @@
+.navigation {
+
+    &__icon {
+        color: $color-white;
+        position: absolute;
+        display: inline-block;
+        font-size: 2.5rem;
+        top: 3rem;
+        left: 3rem;
+        padding: 1rem;
+
+        outline: 1rem solid $color-white;
+        transition: all 1.2s cubic-bezier(.54,1.6,1,.98);
+
+        &:hover {
+            transform: rotate(360deg);
+        }
+        
+    }
+
+    &__list {
+        text-align: right;
+        margin-right: 1.8rem;
+
+    }
+
+    &__item {
+        display: inline-block;
+        margin: 2rem;
+
+        font-size: 2.5rem;
+            
+    }
+
+    &__link {
+        display: inline-block;
+        transition: all .2s;
+
+        &:link,
+        &:visited,
+        &:active {
+            text-decoration: none;
+            color: $color-white;
+
+        }
+
+        &:hover{
+            text-shadow: 0 .5rem 1rem rgba($color-black, .8);
+            transform: skew(-10deg, 8deg) scale(1.5);
+
+        }
+
+    }
+
+
+}
