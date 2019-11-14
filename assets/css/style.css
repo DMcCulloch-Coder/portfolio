@@ -39,6 +39,16 @@ body {
     height: 100%;
     object-fit: cover; }
 
+.heading-section {
+  color: #491270;
+  text-align: center;
+  margin: 10rem 0; }
+  .heading-section__title {
+    font-size: 4rem;
+    margin-bottom: 2rem; }
+  .heading-section__details {
+    font-size: 3rem; }
+
 .name {
   position: absolute;
   top: 50%;
@@ -54,11 +64,19 @@ body {
     font-size: 4rem;
     animation: moveDownRight 2s; }
 
+.footer {
+  margin: 10rem 2rem 2rem 2rem;
+  background-image: linear-gradient(to right bottom, rgba(73, 18, 112, 0.5), rgba(193, 106, 255, 0.5));
+  height: 20rem;
+  overflow: hidden; }
+  .footer__link {
+    margin: 1rem; }
+
 .header {
   position: relative;
   margin: 2rem;
   height: 60vh;
-  background-image: linear-gradient(to right bottom, rgba(93, 46, 126, 0.5), rgba(174, 96, 229, 0.5));
+  background-image: linear-gradient(to right bottom, rgba(73, 18, 112, 0.5), rgba(193, 106, 255, 0.5));
   background-image: cover; }
 
 .navigation__icon {
@@ -92,3 +110,6 @@ body {
   .navigation__link:hover {
     text-shadow: 0 0.5rem 1rem rgba(36, 36, 36, 0.8);
     transform: skew(-10deg, 8deg) scale(1.5); }
+
+.section-about {
+  margin: 2rem; }

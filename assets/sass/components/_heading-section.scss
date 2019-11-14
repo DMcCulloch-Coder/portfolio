@@ -1,0 +1,16 @@
+.heading-section {
+    color: $color-primary-dark;
+    text-align: center;
+    margin: 10rem 0;
+
+    &__title {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+
+    }
+
+    &__details {
+        font-size: 3rem;
+
+    }
+}
