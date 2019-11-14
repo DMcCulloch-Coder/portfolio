@@ -1,0 +1,22 @@
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-white;
+    text-align: center;
+    text-shadow: 0 .5rem 1rem rgba($color-black, .8);
+
+    &__display {
+        font-size: 8rem;
+        animation: moveDownLeft 2s;
+        
+    }
+
+    &__details {
+        font-size: 4rem;
+        animation: moveDownRight 2s;
+
+    }
+
+}

@@ -1,6 +1,11 @@
 .header {
     position: relative;
     margin: 2rem;
-
+    height: 60vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary-dark,.5),
+        rgba($color-primary-light, 0.5));
+    background-image: cover;
 
 }
