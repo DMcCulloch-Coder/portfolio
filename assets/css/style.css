@@ -86,11 +86,16 @@ body {
   font-size: 2.5rem;
   top: 3rem;
   left: 3rem;
-  padding: 1rem;
-  outline: 1rem solid white;
-  transition: all 1.2s cubic-bezier(0.54, 1.6, 1, 0.98); }
-  .navigation__icon:hover {
-    transform: rotate(360deg); }
+  margin: 1rem; }
+  .navigation__icon--border {
+    position: absolute;
+    top: -1rem;
+    left: -.5rem;
+    outline: 1rem solid white;
+    padding: 2.5rem;
+    transition: all 1.2s cubic-bezier(0.54, 1.6, 1, 0.98); }
+    .navigation__icon--border:hover {
+      transform: rotate(180deg); }
 
 .navigation__list {
   text-align: right;
