@@ -1,0 +1,57 @@
+.card {
+
+
+    &__side {
+
+        margin: 2rem;
+
+        height: 300px;
+        background-color: red;
+
+        &--front {
+
+
+            &-1 {
+
+            }
+
+            &-2 {
+                
+            }
+
+        }
+
+        &--back {
+
+
+            &-1 {
+
+            }
+
+            &-2 {
+
+            }
+
+        }
+
+    }
+
+    &__heading {
+
+    }
+
+    &__details {
+        
+    }
+
+    &__text {
+
+    }
+
+    &__link {
+
+    }
+
+
+
+}
