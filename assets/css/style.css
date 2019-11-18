@@ -60,14 +60,14 @@ body {
       background-color: white; }
     .card__side--back {
       transform: rotateY(180deg);
-      background-color: green; }
+      background-image: linear-gradient(to right bottom, rgba(108, 36, 160, 0.5), rgba(193, 106, 255, 0.5)); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
     transform: rotate(0); }
 
 .heading-section {
-  color: #491270;
+  color: #6c24a0;
   text-align: center;
   margin: 10rem 0; }
   .heading-section__title {
@@ -93,7 +93,7 @@ body {
 
 .footer {
   margin: 10rem 2rem 2rem 2rem;
-  background-image: linear-gradient(to right bottom, rgba(73, 18, 112, 0.5), rgba(193, 106, 255, 0.5));
+  background-image: linear-gradient(to right bottom, rgba(108, 36, 160, 0.5), rgba(193, 106, 255, 0.5));
   height: 20rem;
   overflow: hidden; }
   .footer__link {
@@ -114,7 +114,7 @@ body {
   position: relative;
   margin: 2rem;
   height: 60vh;
-  background-image: linear-gradient(to right bottom, rgba(73, 18, 112, 0.5), rgba(193, 106, 255, 0.5));
+  background-image: linear-gradient(to right bottom, rgba(108, 36, 160, 0.5), rgba(193, 106, 255, 0.5));
   background-image: cover; }
 
 .navigation__icon {
