@@ -1,10 +1,13 @@
 .row {
-    margin: 2rem;
-
+    margin: 0 auto;
+    max-width: 114rem;
+    
     @include clearfix;
 
-}
+    .col-1-of-2 {
+        width: 50%;
+        float: left;
+    
+    }
 
-.col-1-of-2 {
-    width: calc((100% - $gutter-width) / 2)
 }

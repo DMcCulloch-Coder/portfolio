@@ -1,8 +1,9 @@
 @mixin clearfix {
-    content: "";
-    clear: both;
-    display: table;
-
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 }
 
 @mixin centerContent {
