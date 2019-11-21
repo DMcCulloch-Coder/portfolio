@@ -8,12 +8,12 @@ $(document).ready(function() {
     $('.to-work').on('click', function () {
         setTimeout($([document.documentElement, document.body]).animate({
             scrollTop: $("#work").offset().top
-        }, 1500), 500)
+        }, 1800), 500)
     })
     $('.to-contact').on('click', function () {
         setTimeout($([document.documentElement, document.body]).animate({
             scrollTop: $("#contact").offset().top
-        }, 1500), 500)
+        }, 2100), 500)
     })
 
 
