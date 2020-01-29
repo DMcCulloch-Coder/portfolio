@@ -3,7 +3,10 @@
     background-image: $color-primary-blend;
     height: 20rem;
     overflow: hidden;
-
+    
+    & a {
+        text-decoration: none;
+    }
 
     &__link {
         margin: 1rem;
