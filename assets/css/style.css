@@ -96,6 +96,8 @@ body {
   background-image: linear-gradient(to right bottom, rgba(108, 36, 160, 0.5), rgba(193, 106, 255, 0.5));
   height: 20rem;
   overflow: hidden; }
+  .footer a {
+    text-decoration: none; }
   .footer__link {
     margin: 1rem; }
 
